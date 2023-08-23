@@ -1,0 +1,88 @@
+/* Estilos generales */
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.contenedorprincipal {
+    text-align: center;
+}
+
+header{
+    justify-content: center;
+}
+
+header h1 {
+    color: #333;
+    text-align: center;
+}
+
+.num input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.num{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pass input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: monospace;
+    background-color: #fff3e6;
+
+}
+.pass{
+    justify-content: center;
+    text-align: center;
+}
+
+
+.btngenerar{
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.btngenerar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btngenerar button:hover {
+    background-color: #0056b3;
+}
+.passwordgenerada{
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
